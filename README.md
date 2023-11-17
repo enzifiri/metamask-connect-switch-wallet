@@ -31,4 +31,20 @@ sudo ufw enable
 sudo ufw allow 'Nginx Full'
 sudo ufw allow 22
 sudo ufw allow 3000
+sudo ufw allow 80
 sudo ufw status
+```
+
+### Nginx yapılandırmak için
+```sudo nano /etc/nginx/sites-available/myreactapp``` sonra alttaki kodu düzenleyip içine yapıştırın.
+```
+server {
+    listen 80;
+    server_name SERVERIPADRESİNİZ; # 12.123.423.33 gibi
+
+    location / {
+        root /var/www/myreactapp; # React build dizinine işaret edin
+        try_files $uri /index.html; # SPA için gerekli
+    }
+}
+```
