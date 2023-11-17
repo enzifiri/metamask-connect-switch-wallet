@@ -33,6 +33,7 @@ sudo ufw allow 'Nginx Full'
 sudo ufw allow 22
 sudo ufw allow 3000
 sudo ufw allow 80
+sudo ufw reload
 sudo ufw status
 ```
 
