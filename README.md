@@ -40,6 +40,8 @@ npm install
 
 Ağınızın bilgileri için dymension reposuna girin kendi rollapp klasörünüzü bulun, ardından içerisinde .json dosyasına girin. Gerekli kısımlar alttaki görselde.
 
+> https://github.com/dymensionxyz/rollapp-registry/
+
 ```
 const networks = {
   CHAINADINIZ: {
@@ -59,7 +61,6 @@ Aynı Dosyada farklı bir yer daha değiştireceğiz, 80. Satırdaki "await chan
 ```
 await changeNetwork('CHAINADINIZ');
 ```
-> https://github.com/dymensionxyz/rollapp-registry/
 
 ![image](https://github.com/enzifiri/dApp-Starter-RC/assets/76253089/034fe5e5-c3a4-4bc9-b2ff-54df939f0c35)
 
