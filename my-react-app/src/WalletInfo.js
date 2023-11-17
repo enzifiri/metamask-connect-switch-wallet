@@ -39,12 +39,12 @@ function WalletInfo() {
     window.ethereum.on('accountsChanged', handleAccountsChanged);
     window.ethereum.on('chainChanged', loadWalletData);
 
-    // Bakiyeyi düzenli olarak güncellemek için zamanlayici ayarla
+
     const balanceInterval = setInterval(() => {
       loadWalletData();
-    }, 1000); // Her 10 saniyede bir bakiyeyi kontrol et
+    }, 1000); 
 
-    // Component unmount edildiginde event listenerlari ve zamanlayiciyi kaldir
+
     return () => {
       if (window.ethereum.removeListener) {
         window.ethereum.removeListener('accountsChanged', handleAccountsChanged);
