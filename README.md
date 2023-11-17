@@ -21,7 +21,7 @@ cd fasdasdas
 npm install
 ```
 
-### Nginx kurulumu
+### Sunucumuzun yapılandırmasını yapalım.
 ```
 sudo apt update
 sudo apt install nginx
@@ -35,20 +35,8 @@ sudo ufw allow 80
 sudo ufw status
 ```
 
-### Nginx yapılandırmak için
-```sudo nano /etc/nginx/sites-available/myreactapp``` sonra alttaki kodu düzenleyip içine yapıştırın.
+### Her şey hazır Sunucumuzu başlatalım
 ```
-server {
-    listen 80;
-    server_name SERVERIPADRESİNİZ; # 12.123.423.33 gibi
-
-    location / {
-        root /var/www/myreactapp; # React build dizinine işaret edin
-        try_files $uri /index.html; # SPA için gerekli
-    }
-}
+cd my-react-app
+npm start
 ```
-Kodu yapıştırdıktan sonra Ctrl X + Y + Entera basın. Ve bu kodu çalıştırın
-````
-sudo systemctl restart nginx
-````
