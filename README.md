@@ -16,8 +16,8 @@ sudo apt install nodejs
 
 ## Proje Dosyalarını sunucunuza çekin.
 ```
-git clone fsdfdsfsdfd
-cd fasdasdas
+git clone https://github.com/enzifiri/dApp-Starter-RC/tree/main/my-react-app
+cd my-react-app
 npm install
 ```
 
