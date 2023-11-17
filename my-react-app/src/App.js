@@ -71,6 +71,7 @@ function App() {
     };
 
     initializeWeb3();
+    // eslint-disable-next-line
   }, []);
 
 const switchNetwork = async () => {
@@ -104,6 +105,9 @@ const changeNetwork = async (networkName) => {
   };
 
   // Bildirim mesajı değiştiğinde, otomatik olarak kaldırma işlemini tetikle
+  
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+
   useEffect(() => {
     if (notification) {
       clearNotification();
