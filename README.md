@@ -1,7 +1,7 @@
 # dApp-Starter-RC
 dapp kodlamak isteyenler için basit bir template.
 
-Ubuntu 20.04 LTS Sunucu kullanacağız, özelliklerin fazla olmasına gerek yok. 2CPU 4 RAM yeterli
+Ubuntu 20.04 LTS Sunucu kullanacağız, özelliklerin fazla olmasına gerek yok. 2CPU 2 RAM yeterli
 
 ## NodeJS ve İlgili Paketleri kuralım.
 ```
