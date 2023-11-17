@@ -25,11 +25,7 @@ npm install
 ### Sunucumuzun yapılandırmasını yapalım.
 ```
 sudo apt update
-sudo apt install nginx
-sudo systemctl start nginx
-sudo systemctl enable nginx
 sudo ufw enable
-sudo ufw allow 'Nginx Full'
 sudo ufw allow 22
 sudo ufw allow 3000
 sudo ufw allow 80
@@ -37,7 +33,7 @@ sudo ufw reload
 sudo ufw status
 ```
 
-### Her şey hazır Sunucumuzu başlatalım
+### Her şey hazır Sunucumuzu başlatalım, sonrasında internette ``sunucuipniz:3000`` şeklinde arama yapıp butonları görebileceksiniz.
 ```
 cd my-react-app
 npm start
