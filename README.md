@@ -82,3 +82,6 @@ screen -S app
 npm start
 Screenden çıkın;
 ```
+
+## Kendi Faucetinizi yapmak istiyorsanız alttaki youtube kaynağını öneririm
+> https://www.youtube.com/watch?v=PcFfN_jrc_w&t=1s
