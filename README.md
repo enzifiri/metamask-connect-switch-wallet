@@ -48,3 +48,7 @@ server {
     }
 }
 ```
+Kodu yapıştırdıktan sonra Ctrl X + Y + Entera basın. Ve bu kodu çalıştırın
+````
+sudo systemctl restart nginx
+````
