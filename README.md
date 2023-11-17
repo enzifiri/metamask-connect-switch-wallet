@@ -47,6 +47,8 @@ sudo ufw status
 
 ### Her şey hazır Sunucumuzu başlatalım, sonrasında internette ``sunucuipniz:3000`` şeklinde arama yapıp butonları görebileceksiniz.
 ```
-cd my-react-app
+apt install screen
+screen -S app
 npm start
+Screenden çıkın;
 ```
