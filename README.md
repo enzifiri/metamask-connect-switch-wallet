@@ -84,7 +84,8 @@ npm start
 Screenden çıkın;
 ```
 
-## Tamamdır, Şimdi Appinizi kodlamaya geçebilirsiniz. Kolay gelsin 
+ ## Buraya kadar her şey tamam, Websitesine girdiğinizde 3 buton göreceksiniz, Faucet, Connect ve Switch. Bu 3 temel altyapıyı kullanarak dAPPiniz ile etkileşim haline geçebilirsiniz. Başta dediğim gibi sadece bu repoyu yapmanız tek başına işe yaramayacak bunun üstüne youtube gibi kaynaklardan benzersiz bir dApp yapmayı öğrenmelisiniz.
+
 > Kendi Faucetinizi yapmak istiyorsanız alttaki youtube kaynağını öneririm
 
 > https://www.youtube.com/watch?v=PcFfN_jrc_w&t=1s
