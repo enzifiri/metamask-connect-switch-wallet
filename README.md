@@ -8,6 +8,7 @@ Nft Mintletme kontratı için Youtube kaynağı; https://www.youtube.com/watch?v
 
 ## İlham almak amacıyla kendi yazmış olduğum dAppi inceleyebilirsiniz
 > https://rollape.quest/
+
 ![image](https://github.com/enzifiri/dApp-Starter-RC/assets/76253089/99e5e956-290f-49c1-9400-1e564cc00f34)
 
 <h1 align="center">Karar verdiyseniz başlayalım.</h1>
