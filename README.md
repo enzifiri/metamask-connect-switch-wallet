@@ -1,15 +1,16 @@
 <h1 align="center">Basit bir Dapp Altyapısı</h1>
 
 <h3 align="center">
-Bu içerik sadece Connect + Switch Wallet fonksiyonlarını dAppinize nasıl ekleyeceğinizi gösteriyor. Bu repoyu tek başına yapmanız işe yaramayacak. Ekstra olarak kendi appinizi yazmanız gerekecek. Bu yüzden gerçekten app yapmak isteyen kişilerin kullanması mantıklı olur. Çünkü hiç bilmeyen biri için dApp yapmak en az 4 5 saat gerektiriyor (şahsen). Kesinlikle dAPP kodlarken Youtube + ChatGPTden yararlanın çok faydası alıyor, aldığınız hataları sorunca anında cevap veriyor.
+Bu içerik sadece Connect + Switch Wallet fonksiyonlarını dAppinize nasıl ekleyeceğinizi gösteriyor. Bu repoyu tek başına yapmanız işe yaramayacak. Ekstra olarak kendi appinizi yazmanız gerekecek. Bu yüzden gerçekten app yapmak isteyen kişilerin kullanması mantıklı olur. Çünkü hiç bilmeyen biri için dApp yapmak en az 4 5 saat gerektiriyor (şahsen). Kesinlikle dAPP kodlarken Youtube + ChatGPTden yararlanın çok faydası alıyor, aldığınız hataları sorunca anında cevap veriyor. <br>
+ Basit Dapp Önerisi olarak Nft Mintletme sitesi yapabilirsiniz
+Nft Mintletme kontratı için Youtube kaynağı; https://www.youtube.com/watch?v=GwFQg8ROZfo&t
 </h3>
-> Basit Dapp Önerisi olarak Nft Mintletme sitesi yapabilirsiniz
-> Nft Mintletme için YOutube kaynağı; [Link](https://www.youtube.com/watch?v=GwFQg8ROZfo&t)
 
+## İlham almak amacıyla kendi yazmış olduğum dAppi inceleyebilirsiniz
+> https://rollape.quest/
+![image](https://github.com/enzifiri/dApp-Starter-RC/assets/76253089/99e5e956-290f-49c1-9400-1e564cc00f34)
 
-#
-# dApp-Starter-RC
-dapp kodlamak isteyenler için basit bir template.
+<h1 align="center">Karar verdiyseniz başlayalım.</h1>
 
 Ubuntu 20.04 LTS Sunucu kullanacağız, özelliklerin fazla olmasına gerek yok. 2CPU 2 RAM yeterli
 
