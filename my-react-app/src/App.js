@@ -1,46 +1,46 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
 import Web3 from 'web3';
-import WalletInfo from './WalletInfo'; // WalletInfo'yu import et
+import WalletInfo from './WalletInfo';
 
 
 window.onerror = function (message, source, lineno, colno, error) {
   console.error("Bir hata yakalandı:", message, source, lineno, colno, error);
-  // Hata detaylarını bir sunucuya göndermek için AJAX isteği veya benzeri bir yöntem kullanabilirsiniz.
-  return true; // Bu, tarayıcının varsayılan hata yöneticisini devre dışı bırakır.
+
+  return true;
 };
 
 window.onunhandledrejection = function (event) {
   console.error("Yakalanmamış bir Promise reddi:", event.reason);
-  // Promise reddinin detaylarını sunucuya göndermek için burada işlem yapabilirsiniz.
+
   return true;
 };
 
 const networks = {
-  aazifiri: {
-    chainId: '0x78d851',
-    chainName: 'aazifiri',
+  CHAINADINIZ: {
+    chainId: 'CHAINIDNİZ',
+    chainName: 'CHAINADINIZ',
     nativeCurrency: {
-      name: 'iri',
-      symbol: 'iri',
+      name: 'TOKENSEMBOL',
+      symbol: 'TOKENSEMBOL',
       decimals: 18
     },
-    rpcUrls: ['https://froopyland.dymension.xyz/16/aazifiri_7919697-1/evmrpc'],
+    rpcUrls: ['RPC ADRESINIZ'],
     blockExplorerUrls: ['https://froopyland.dymension.xyz/'],
   }
 };
 
 function App() {
-  const [setWeb3] = useState(null); // web3 nesnesi için state tanımla
+  const [setWeb3] = useState(null);
   const [setError] = useState(null);
   const [accounts, setAccounts] = useState([]);
-  const [notification, setNotification] = useState(''); // Bildirim mesajı için state
+  const [notification, setNotification] = useState('');
   
   const connectWallet = async () => {
     if (window.ethereum) {
       try {
         await window.ethereum.request({ method: 'eth_requestAccounts' });
-        setWeb3(new Web3(window.ethereum)); // web3 nesnesini başlat ve state'e at
+        setWeb3(new Web3(window.ethereum));
         setNotification('Wallet successfully connected.');
       } catch (error) {
         console.error("Please Refresh Website:", error);
@@ -77,7 +77,7 @@ function App() {
 const switchNetwork = async () => {
   if (accounts.length > 0) {
     try {
-      await changeNetwork('aazifiri');
+      await changeNetwork('CHAINADINIZ');
       setNotification('Network switched successfully.');
     } catch (error) {
       console.error("Failed to switch network:", error);
@@ -97,14 +97,14 @@ const changeNetwork = async (networkName) => {
   });
 };
    
-    // Bildirim mesajını kaldırmak için bir fonksiyon
+    
   const clearNotification = () => {
     setTimeout(() => {
       setNotification('');
     }, 3000); // 3 saniye sonra bildirimi kaldır
   };
 
-  // Bildirim mesajı değiştiğinde, otomatik olarak kaldırma işlemini tetikle
+  
   
   // eslint-disable-next-line react-hooks/exhaustive-deps
 
