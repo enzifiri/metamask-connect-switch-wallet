@@ -85,5 +85,7 @@ Screenden çıkın;
 
 ## Tamamdır, Şimdi Appinizi kodlamaya geçebilirsiniz. Kolay gelsin 
 > Kendi Faucetinizi yapmak istiyorsanız alttaki youtube kaynağını öneririm
+
 > https://www.youtube.com/watch?v=PcFfN_jrc_w&t=1s
-> Faucet butonunu özelleştirmek için ``nano src/WalletInfo.js içerisini düzenleyin. Örneğim en aşağıda return kısmındaki TOKENDENOM yazan yerleri kendi ağınızın Tokeniyle değiştirin (ETH gibi)
+
+> Faucet butonunu özelleştirmek için ``nano src/WalletInfo.js`` içerisini düzenleyin. Örneğim en aşağıda return kısmındaki TOKENDENOM yazan yerleri kendi ağınızın Tokeniyle değiştirin (ETH gibi)
