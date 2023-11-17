@@ -34,6 +34,33 @@ cd my-react-app
 npm install
 ```
 
+## Kendi Özel ağımızı ekleyelim ve yapılandıralım (dikkatli oku)
+```cd my-react-app``` // Zaten bu klasördeysen bu kodu geç <br>
+```nano src/App.js``` içerisine gir ve "const networks = {" kısmını kendi ağına göre düzenle <br>
+
+Ağınızın bilgileri için dymension reposuna girin kendi rollapp klasörünüzü bulun, ardından içerisinde .json dosyasına girin. Gerekli kısımlar alttaki görselde.
+
+```
+const networks = {
+  CHAINADINIZ: {
+    chainId: 'CHAINIDNİZ',
+    chainName: 'CHAINADINIZ',
+    nativeCurrency: {
+      name: 'TOKENSEMBOL',
+      symbol: 'TOKENSEMBOL',
+      decimals: 18
+    },
+    rpcUrls: ['RPC ADRESINIZ'],
+    blockExplorerUrls: ['https://froopyland.dymension.xyz/'],
+  }
+};
+```
+
+> https://github.com/dymensionxyz/rollapp-registry/
+
+![image](https://github.com/enzifiri/dApp-Starter-RC/assets/76253089/034fe5e5-c3a4-4bc9-b2ff-54df939f0c35)
+
+
 ### Sunucumuzun yapılandırmasını yapalım.
 ```
 sudo apt update
