@@ -55,7 +55,10 @@ const networks = {
   }
 };
 ```
-
+Aynı Dosyada farklı bir yer daha değiştireceğiz, 80. Satırdaki "await changeNetwork('CHAINADINIZ'); kısmını düzenleyin
+```
+await changeNetwork('CHAINADINIZ');
+```
 > https://github.com/dymensionxyz/rollapp-registry/
 
 ![image](https://github.com/enzifiri/dApp-Starter-RC/assets/76253089/034fe5e5-c3a4-4bc9-b2ff-54df939f0c35)
